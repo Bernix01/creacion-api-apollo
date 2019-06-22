@@ -1,0 +1,7 @@
+type Query {
+  helloWorld: String!
+  todosLosProductos: [Producto!]!
+}
+type Producto {
+  nombre: String!
+}
